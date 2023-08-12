@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Prata&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+:root {
+  --background: #f3a683;
+  --base: rgb(43, 43, 43);
+  --accent: #786fa6;
+  --shadow: #e77f67;
+}
+
+#Brand {
+  font-family: 'Lobster', cursive;
+}
+
+.Nav {
+  background-color: #d7d6d3;
+}
+
+.cool {
+  font: bolder 10rem sans-serif;
+  font-family: 'Prata', serif;
+}
+
+.cool span {
+  color: var(--shadow);
+  display: inline-block;
+  position: relative;
+  overflow: hidden;
+}
+
+.cool span:nth-child(1)::before,
+.cool span:nth-child(1)::after {
+  -webkit-animation-delay: 0.2s;
+  animation-delay: 0.2s;
+}
+
+.cool span:nth-child(2)::before,
+.cool span:nth-child(2)::after {
+  -webkit-animation-delay: 0.3s;
+  animation-delay: 0.3s;
+}
+
+.cool span:nth-child(3)::before,
+.cool span:nth-child(3)::after {
+  -webkit-animation-delay: 0.4s;
+  animation-delay: 0.4s;
+}
+
+@media (prefers-reduced-motion) {
+  .cool span {
+    color: var(--base);
+  }
+}
+
+.cool span::before {
+  -webkit-animation: max-height 2s cubic-bezier(0.61, 1, 0.88, 1) 1 normal both;
+  animation: max-height 2s cubic-bezier(0.61, 1, 0.88, 1) 1 normal both;
+  color: var(--accent);
+}
+
+.cool span::after {
+  -webkit-animation: max-width 4s cubic-bezier(0.61, 1, 0.88, 1) 1 normal both;
+  animation: max-width 4s cubic-bezier(0.61, 1, 0.88, 1) 1 normal both;
+  color: var(--base);
+}
+
+.cool span::before,
+.cool span::after {
+  content: attr(data-text);
+  left: 0;
+  overflow: hidden;
+  position: absolute;
+}
+
+@media (prefers-reduced-motion) {
+
+  .cool span::before,
+  .cool span::after {
+    -webkit-animation: none;
+    animation: none;
+    content: "";
+  }
+}
+
+@-webkit-keyframes max-width {
+  from {
+    max-width: 0;
+  }
+
+  to {
+    max-width: 100%;
+  }
+}
+
+@keyframes max-width {
+  from {
+    max-width: 0;
+  }
+
+  to {
+    max-width: 100%;
+  }
+}
+
+@-webkit-keyframes max-height {
+  from {
+    max-height: 0;
+  }
+
+  to {
+    max-height: 100%;
+  }
+}
+
+@keyframes max-height {
+  from {
+    max-height: 0;
+  }
+
+  to {
+    max-height: 100%;
+  }
+}
