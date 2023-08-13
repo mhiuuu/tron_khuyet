@@ -1,4 +1,5 @@
-import './Styling/style.css'
+import './Styling/Hero.css'
+import './Styling/Stories.css'
 import Hero from './Components/Hero';
 import Header from './Components/Navbar';
 import Stories from './Components/Stories';
