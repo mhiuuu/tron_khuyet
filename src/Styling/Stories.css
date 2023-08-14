@@ -2,3 +2,6 @@
   -webkit-mask-image: -webkit-linear-gradient(top, #ffffff 0%, #ffffff 100%);
 }
 
+#Text_area {
+  margin-top: 100vh;
+}

@@ -4,7 +4,7 @@ const Header = () => {
   return (
     <nav className="Nav fixed top-0 w-full bg-gray-300 bg-opacity-50 backdrop-filter backdrop-blur-lg">
       <div className="flex flex-wrap items-center justify-between mx-auto p-4">
-        <a href="https://flowbite.com/" className="flex items-center">
+        <a href="#" className="flex items-center">
           <span className="self-center text-2xl font-semibold whitespace-nowrap" id="Brand">The Up Project</span>
         </a>
         <div className="items-center justify-between hidden w-full md:flex md:w-auto md:order-1">
