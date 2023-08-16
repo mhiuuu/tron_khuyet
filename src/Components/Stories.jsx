@@ -1,25 +1,7 @@
-import {React, useEffect} from 'react';
-import gsap from "gsap";
-import ScrollTrigger from "gsap/ScrollTrigger";
-gsap.registerPlugin(ScrollTrigger);
-
+import { React, useEffect } from 'react';
 
 // Define a component for the header
 function Stories() {
-  /* useEffect(() => {
-    gsap.to('Text_area', {
-      scrollTrigger: {
-        trigger: "#header",
-        start: "top top",
-        end: "bottom top",
-        scrub: true,
-      },
-      yPercent: 50,
-      scale: 3,
-      opacity: 0,
-    })
-  }); */
-
   return (
     <div>
       <section>
@@ -53,31 +35,6 @@ function Stories() {
               Sed ut perspiciatis unde omnis iste natus error sit voluptatem
               accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab
               illo inventore veritatis et quasi architecto beatae vitae dicta sunt
-              explicabo.
-              Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-              accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab
-              illo inventore veritatis et quasi architecto beatae vitae dicta sunt
-              explicabo.
-              Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-              accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab
-              illo inventore veritatis et quasi architecto beatae vitae dicta sunt
-              explicabo.
-              Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-              accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab
-              illo inventore veritatis et quasi architecto beatae vitae dicta sunt
-              explicabo.
-              Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-              accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab
-              illo inventore veritatis et quasi architecto beatae vitae dicta sunt
-              explicabo.
-              Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-              accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab
-              illo inventore veritatis et quasi architecto beatae vitae dicta sunt
-              explicabo.
-              Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-              accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab
-              illo inventore veritatis et quasi architecto beatae vitae dicta sunt
-              explicabo.
             </p>
           </div>
         </div>

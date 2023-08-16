@@ -30,20 +30,20 @@
 
 .cool span:nth-child(1)::before,
 .cool span:nth-child(1)::after {
-  -webkit-animation-delay: 0.2s;
-  animation-delay: 0.2s;
+  -webkit-animation-delay: 1.2s;
+  animation-delay: 1.2s;
 }
 
 .cool span:nth-child(2)::before,
 .cool span:nth-child(2)::after {
-  -webkit-animation-delay: 0.3s;
-  animation-delay: 0.3s;
+  -webkit-animation-delay: 1.3s;
+  animation-delay: 1.3s;
 }
 
 .cool span:nth-child(3)::before,
 .cool span:nth-child(3)::after {
-  -webkit-animation-delay: 0.4s;
-  animation-delay: 0.4s;
+  -webkit-animation-delay: 1.4s;
+  animation-delay: 1.4s;
 }
 
 @media (prefers-reduced-motion) {

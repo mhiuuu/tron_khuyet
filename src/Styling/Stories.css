@@ -2,17 +2,13 @@
   -webkit-mask-image: -webkit-linear-gradient(top, #ffffff 0%, #ffffff 100%);
 }
 
-#Text_area {
-  margin-top: 100vh;
-}
-
 .scrollbox {
   overflow: auto;
-  width: 28vw;
+  width: 29vw;
   max-height: 70vh;
- --g: radial-gradient(55% 20px, #0009, #0000);
+/*  --g: radial-gradient(55% 20px, #0009, #0000);
   background:
     linear-gradient(#fff 10px, #0000 40px calc(100% - 40px), #fff calc(100% - 10px)) local,
     var(--g) top /100% 200%,
-    var(--g) bottom/100% 200%; 
+    var(--g) bottom/100% 200%;  */
 }
