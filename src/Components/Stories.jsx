@@ -1,5 +1,5 @@
 import { React, useEffect } from 'react';
-
+import { Slide } from 'react-awesome-reveal';
 // Define a component for the header
 function Stories() {
   return (
@@ -11,34 +11,37 @@ function Stories() {
           className="Img clip rect(0, auto, auto, 0) overflow-hidden fixed h-screen left-0 w-full object-cover z-[-1] top-0"
         />
       </section>
-      <section className='lg:w-1/3 float-right p-10 lg:h-screen bg-black bg-opacity-70 backdrop-filter backdrop-blur-lg text-justify relative z-[-1]' id='Text_area'>
-        <div className='my-24'>
-          <h1 className='font-bold text-xl text-white'>Lorem ipsum dolor sit amet.</h1>
-          <div className='scrollbox my-10'>
-            <p className='text-white'>
-              Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-              et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-              exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-              <br></br>
-              Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-              accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab
-              illo inventore veritatis et quasi architecto beatae vitae dicta sunt
-              explicabo.
-              Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-              accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab
-              illo inventore veritatis et quasi architecto beatae vitae dicta sunt
-              explicabo.
-              Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-              accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab
-              illo inventore veritatis et quasi architecto beatae vitae dicta sunt
-              explicabo.
-              Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-              accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab
-              illo inventore veritatis et quasi architecto beatae vitae dicta sunt
-            </p>
+      <Slide className='lg:w-1/3 float-right p-10 lg:h-screen bg-black bg-opacity-70 backdrop-filter backdrop-blur-lg text-justify relative z-[-1]' direction='up'>
+        <section id='Text_area'>
+          <div className='my-24'>
+            <h1 className='font-bold text-xl text-white'>Lorem ipsum dolor sit amet.</h1>
+            <div className='scrollbox my-10'>
+              <p className='text-white'>
+                Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                <br></br>
+                Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+                accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab
+                illo inventore veritatis et quasi architecto beatae vitae dicta sunt
+                explicabo.
+                Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+                accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab
+                illo inventore veritatis et quasi architecto beatae vitae dicta sunt
+                explicabo.
+                Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+                accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab
+                illo inventore veritatis et quasi architecto beatae vitae dicta sunt
+                explicabo.
+                Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+                accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab
+                illo inventore veritatis et quasi architecto beatae vitae dicta sunt
+              </p>
+            </div>
           </div>
-        </div>
-      </section>
+        </section>
+      </Slide>
+      
     </div>
 
   );
