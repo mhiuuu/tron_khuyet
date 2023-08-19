@@ -3,9 +3,12 @@
 @tailwind utilities;
 
 
+@import url('https://fonts.googleapis.com/css2?family=Prata&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
 html {
   color: rgb(43, 43, 43);
-}
+} 
 
 ::-webkit-scrollbar {
   width: 0;
@@ -13,3 +16,50 @@ html {
   background: transparent;
   /* Optional: just make scrollbar invisible */ 
 }
+
+#Brand {
+  font-family: 'Lobster', cursive;
+}
+
+@layer componets {
+  .hero_container {
+    @apply overflow-hidden absolute z-[-1] h-screen w-full left-0;
+  }
+
+  .title_wrapper {
+    @apply fixed block w-full -translate-y-2/4 m-auto top-2/4;
+  }
+
+  .title_wrapper h1 {
+    @apply text-center text-[64px] uppercase text-center font-black;
+  }
+}
+.hero_container {
+  clip: rect(0, auto, auto, 0);
+  -webkit-mask-image: -webkit-linear-gradient(top, #ffffff 0%, #ffffff 100%);
+}
+
+.title_wrapper {
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+}
+
+.title_wrapper h1 {
+  font-size: 64px;
+  font-weight: 900;
+}
+
+.container_solid .title_wrapper h1 {
+  /* the text background */
+  background: url(https://images.unsplash.com/photo-1575058752200-a9d6c0f41945?&q=85);
+  background-position: center;
+  text-fill-color: transparent;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: black;
+}
+
+
+
+

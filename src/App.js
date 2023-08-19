@@ -1,28 +1,23 @@
 /* Import the styling */
-import './Styling/Hero.css'
+import './Styling/index.css'
+import './Styling/Hero_text.css'
 
 /* Import other components */
 import Hero from './Components/Hero';
 import Header from './Components/Navbar';
-import Stories from './Components/Stories';
 
 /* Import outsource library */
-import { Slide } from "react-awesome-reveal";
 
 
+/* Generate website */
 function App() {
   return(
     <div>
       <section>
         <Header />
-      </section>
-      {/* <section>
-        <Slide direction='up' duration={1000}>
-          <Hero />
-        </Slide>
-      </section> */}
+      </section> 
       <section>
-        <Stories />
+        <Hero />
       </section>
     </div>
   );

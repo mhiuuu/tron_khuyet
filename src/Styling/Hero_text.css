@@ -3,29 +3,14 @@
 
 :root {
   --background: #f3a683;
-  --base: rgb(43, 43, 43);
+  --base: white;
   --accent: #786fa6;
   --shadow: #e77f67;
-}
-
-#Brand {
-  font-family: 'Lobster', cursive;
-}
-
-.Nav {
-  background-color: #d7d6d3;
 }
 
 .cool {
   font: bolder 10rem sans-serif;
   font-family: 'Prata', serif;
-}
-
-.cool span {
-  color: var(--shadow);
-  display: inline-block;
-  position: relative;
-  overflow: hidden;
 }
 
 .cool span:nth-child(1)::before,
