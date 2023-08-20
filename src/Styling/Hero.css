@@ -1,0 +1,28 @@
+@layer componets {
+  .hero_container {
+    @apply overflow-hidden absolute z-[-1] h-screen w-full left-0;
+  }
+
+  .title_wrapper {
+    @apply fixed block w-full -translate-y-2/4 m-auto top-2/4 justify-center items-center;
+  }
+
+  .title_wrapper h1 {
+    @apply text-[64px] uppercase text-center font-black;
+  }
+}
+
+.hero_container {
+  clip: rect(0, auto, auto, 0);
+  -webkit-mask-image: -webkit-linear-gradient(top, #ffffff 0%, #ffffff 100%);
+}
+
+.title_wrapper {
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+}
+
+.title_wrapper h1 {
+  font-size: 64px;
+  font-weight: 900;
+}
