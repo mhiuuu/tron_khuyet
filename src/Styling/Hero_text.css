@@ -9,8 +9,14 @@
 }
 
 .cool {
-  font: bolder 10rem sans-serif;
+  font: 10rem sans-serif;
   font-family: 'Prata', serif;
+}
+.cool span {
+  color: var(--shadow);
+  display: inline-block;
+  position: relative;
+  overflow: hidden;
 }
 
 .cool span:nth-child(1)::before,

@@ -11,17 +11,16 @@ html {
 } 
 
 ::-webkit-scrollbar {
+  /*Remove the scollbar or make it invisible*/
   width: 0;
-  /* Remove scrollbar space */
   background: transparent;
-  /* Optional: just make scrollbar invisible */ 
 }
 
 #Brand {
   font-family: 'Lobster', cursive;
 }
 
-@layer componets {
+/* @layer componets {
   .hero_container {
     @apply overflow-hidden absolute z-[-1] h-screen w-full left-0;
   }
@@ -50,7 +49,6 @@ html {
 }
 
 .container_solid .title_wrapper h1 {
-  /* the text background */
   background: url(https://images.unsplash.com/photo-1575058752200-a9d6c0f41945?&q=85);
   background-position: center;
   text-fill-color: transparent;
@@ -59,7 +57,7 @@ html {
   -webkit-background-clip: text;
   color: black;
 }
-
+ */
 
 
 
