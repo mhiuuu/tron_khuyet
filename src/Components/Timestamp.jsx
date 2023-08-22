@@ -2,23 +2,23 @@ const Product = ({num, season, event, desc }) => {
   /* If the num is event, make it stay on the right */
   if(num%2==0) {
     return(
-      <div class="mb-8 flex justify-between flex-row-reverse items-center w-full">
-        <div class="order-1 w-5/12"></div>
-        <div class="order-1 w-5/12 px-1 py-4 text-right">
-          <p class="mb-3 text-base text-yellow-300">{season}</p>
-          <h4 class="mb-3 font-bold text-lg md:text-2xl">{event}</h4>
-          <p class="text-sm md:text-base leading-snug text-black text-opacity-100">{desc}</p>
+      <div className="mb-8 flex justify-between flex-row-reverse items-center w-full">
+        <div className="order-1 w-5/12"></div>
+        <div className="order-1 w-5/12 px-1 py-4 text-right">
+          <p className="mb-3 text-base text-yellow-300">{season}</p>
+          <h4 className="mb-3 font-bold text-lg md:text-2xl">{event}</h4>
+          <p className="text-sm md:text-base leading-snug text-black text-opacity-100">{desc}</p>
         </div>
       </div>
     );
   } 
   return (
-    <div class="mb-8 flex justify-between items-center w-full">
-      <div class="order-1 w-5/12"></div>
-      <div class="order-1  w-5/12 px-1 py-4">
-        <p class="mb-3 text-base text-yellow-300">{season}</p>
-        <h4 class="mb-3 font-bold  text-lg md:text-2xl text-left">{event}</h4>
-        <p class="text-sm md:text-base leading-snug text-black text-opacity-100">{desc}</p>
+    <div className="mb-8 flex justify-between items-center w-full">
+      <div className="order-1 w-5/12"></div>
+      <div className="order-1  w-5/12 px-1 py-4">
+        <p className="mb-3 text-base text-yellow-300">{season}</p>
+        <h4 className="mb-3 font-bold  text-lg md:text-2xl text-left">{event}</h4>
+        <p className="text-sm md:text-base leading-snug text-black text-opacity-100">{desc}</p>
       </div>
     </div> 
   );
