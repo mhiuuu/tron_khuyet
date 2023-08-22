@@ -17,7 +17,7 @@ function App() {
   return(
     <div>
       {/* The navbar */}
-      <header>
+      <header className="sticky z-10 top-0">
         <Header />
       </header> 
 
