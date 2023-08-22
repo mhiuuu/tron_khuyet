@@ -8,6 +8,7 @@ import './Styling/Hero.css'
 import Hero from './Components/Hero';
 import Header from './Components/Navbar';
 import Quotes from './Components/Quotes';
+import TimeStamp from './Components/Timestamp';
 /* Import outsource library */
 
 
@@ -29,6 +30,9 @@ function App() {
         {/* The gallery area */}
         <section>
           <Quotes />
+        </section>
+        <section>
+          <TimeStamp />
         </section>
       </main>
       
