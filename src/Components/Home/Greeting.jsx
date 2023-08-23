@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-
+import Carousel from './Carousel';
 const WordFlick = () => {
   const words = ['Hi i like HTML', 'I also like css', 'Lorem ipsum dolor sit amet', ' consectetur adipiscing elit', 'sed do eiusmod tempor incididunt'];
   const [part, setPart] = useState('');
@@ -50,12 +50,15 @@ const WordFlick = () => {
 const Greeting = () => {
   return (
     <section className="h-[100vh]">
-      <div className="overflow-hidden absolute z-[-1] h-screen w-full  top-0 bg-blue-200">
-        <div className="absolute block w-full -translate-y-2/4 m-auto top-2/4 justify-center items-center">
+      <div className="overflow-hidden absolute z-[-1] h-screen w-full top-0 bg-blue-200 flex flex-col md:flex-row">
+        <div className="w-1/3 m-auto">
           <h1 className='text-center'>Day khong chi la mot su kien</h1>
         </div>
+        {/* <div className="w-2/3 mx-auto">
+          <Carousel />
+        </div> */}
       </div>
-    </section> 
+    </section>
   );
 }
 

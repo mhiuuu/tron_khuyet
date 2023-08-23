@@ -8,14 +8,16 @@ import './Styling/About/Hero.css'
 /*Styling for the home*/
 import './Styling/Home/Greeting.css'
 
-
+/*Import for all*/
 import Header from './Components/Navbar';
+
 /* For the home section */
 import Greeting from './Components/Home/Greeting';
+import Stories from './Components/Home/Stories';
+import Products from './Components/Home/Product';
 
 /* Import other components */
 import Hero from './Components/About/Hero';
-
 import Quotes from './Components/About/Quotes';
 import TimeStamp from './Components/About/Timestamp';
 /* Import outsource library */
@@ -33,6 +35,12 @@ function App() {
       <main>
         <section>
           <Greeting />
+        </section>
+        <section>
+          <Stories />
+        </section>
+        <section>
+          <Products />
         </section>
       </main>
       {/* <main>
