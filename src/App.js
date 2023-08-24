@@ -1,15 +1,15 @@
 /* Import the styling */
 import './Styling/index.css'
 
+/*Import for all*/
+import Header from './Components/Navbar';
+
 /*Styling for the Hero section*/
 import './Styling/About/Hero_text.css'
 import './Styling/About/Hero.css' 
 
 /*Styling for the home*/
 import './Styling/Home/Greeting.css'
-
-/*Import for all*/
-import Header from './Components/Navbar';
 
 /* For the home section */
 import Greeting from './Components/Home/Greeting';
@@ -20,19 +20,20 @@ import Products from './Components/Home/Product';
 import Hero from './Components/About/Hero';
 import Quotes from './Components/About/Quotes';
 import TimeStamp from './Components/About/Timestamp';
+
 /* Import outsource library */
-
-
+import Gallery from './check';
+import './style.css'
 /* Generate website */
 function App() {
   return(
     <div>
       {/* The navbar */}
-      <header className="sticky z-10 top-0">
+      {/* <header className="sticky z-10 top-0">
         <Header />
-      </header> 
-
-      <main>
+      </header>  */}
+      <Gallery/>
+      {/* <main>
         <section>
           <Greeting />
         </section>
@@ -43,7 +44,7 @@ function App() {
           <Products />
         </section>
       </main>
-      {/* <main>
+      <main>
         <section>
           <Hero />
         </section>
@@ -54,8 +55,7 @@ function App() {
         <section>
           <TimeStamp />
         </section>
-      </main> */}
-      
+      </main>  */}
     </div>
   );
 };
