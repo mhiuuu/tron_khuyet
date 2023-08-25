@@ -1,21 +1,44 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
-
-@import url('https://fonts.googleapis.com/css2?family=Prata&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
-
-html {
-  color: rgb(43, 43, 43);
-} 
-
-::-webkit-scrollbar {
-  /*Remove the scollbar or make it invisible*/
-  width: 0;
-  background: transparent;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-#Brand {
-  font-family: 'Lobster', cursive;
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.Scroll {
+  height: 100vh;
+  background-color: #242424;
+  color: wheat;
+  font-size: 60px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#horizontal {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+.horizontal__content {
+  display: flex;
+  align-items: center;
+  margin: 0 30px;
+}
+
+.horizontal__item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.img_cont {
+  width: auto;
+  height: 70vh;
+  object-fit: cover;
+  border: 1px solid #efefef;
 }
