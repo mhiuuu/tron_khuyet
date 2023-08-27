@@ -16,17 +16,12 @@ export default function Carousel() {
       console.log(width_box2.clientWidth);
       console.log(width_box.clientWidth);
       gsap.to(section_2, {
-        x:
-          (width_box.offsetWidth -
-            document.documentElement.clientWidth +
-            width_box2.clientWidth -
-            width_box.clientWidth) *
-          -1,
+        x:-width_box2.offsetWidth,
         ease: "ease",
         scrollTrigger: {
           trigger: section_2,
           pin: true,
-          scrub: 3,
+          scrub: 1.5,
           end: "bottom",
           markers: true
         }
@@ -36,8 +31,7 @@ export default function Carousel() {
   }, []);
 
   return (
-    <div className="App">
-      <div className="Scroll">Please Scroll Below</div>
+    <div>
       <section id="horizontal">
         <div className="container">
           <div className="horizontal__content">
@@ -61,42 +55,25 @@ export default function Carousel() {
               <li className="span3 height2"><img src="https://source.unsplash.com/random/17"/></li>
               <li className="span3"><img src="https://source.unsplash.com/random/18"/></li>
               <li className="span3"><img src="https://source.unsplash.com/random/19"/></li>
-              <li className="span3"><img src="https://source.unsplash.com/random/1"/></li>
-              <li className="span2"><img src="https://source.unsplash.com/random/1"/></li>
-              <li className="span3"><img src="https://source.unsplash.com/random/1"/></li>
-              <li className="span3"><img src="https://source.unsplash.com/random/1"/></li>
-              <li className="span3 height2"><img src="https://source.unsplash.com/random/1"/></li>
-              <li className="span3"><img src="https://source.unsplash.com/random/1"/></li>
-              <li className="span3"><img src="https://source.unsplash.com/random/1"/></li>
-              <li className="span3"><img src="https://source.unsplash.com/random/1"/></li>
-              <li className="span3 height2"><img src="https://source.unsplash.com/random/1"/></li>
-              <li className="span2 height2"><img src="https://source.unsplash.com/random/1"/></li>
-              <li className="span3"><img src="https://source.unsplash.com/random/1"/></li>
-              <li className="span3"><img src="https://source.unsplash.com/random/1"/></li>
-              <li className="span2"><img src="https://source.unsplash.com/random/1"/></li>
-              <li className="span3 height2"><img src="https://source.unsplash.com/random/1"/></li>
-              <li className="span4"><img src="https://source.unsplash.com/random/1"/></li>
-              <li className="span2"><img src="https://source.unsplash.com/random/1"/></li>
-              <li className="span3 height2"><img src="https://source.unsplash.com/random/1"/></li>
-              <li className="span4"><img src="https://source.unsplash.com/random/1"/></li>
-              <li className="span3"><img src="https://source.unsplash.com/random/1"/></li>
-              <li className="span3"><img src="https://source.unsplash.com/random/1"/></li>
-              <li className="span2"><img src="https://source.unsplash.com/random/1"/></li>
-              <li className="span3"><img src="https://source.unsplash.com/random/1"/></li>
-              <li className="span3"><img src="https://source.unsplash.com/random/1"/></li>
-              <li className="span3"><img src="https://source.unsplash.com/random/1"/></li>
-              <li className="span3 height2"><img src="https://source.unsplash.com/random/1"/></li>
-              <li className="span2 height2"><img src="https://source.unsplash.com/random/1"/></li>
-              <li className="span3"><img src="https://source.unsplash.com/random/1"/></li>
-              <li className="span3"><img src="https://source.unsplash.com/random/1"/></li>
-              <li className="span3"><img src="https://source.unsplash.com/random/1"/></li>
-              <li className="span3 height2"><img src="https://source.unsplash.com/random/1"/></li>
-              <li className="span3"><img src="https://source.unsplash.com/random/2"/></li>
+              <li className="span3"><img src="https://source.unsplash.com/random/20"/></li>
+              <li className="span2"><img src="https://source.unsplash.com/random/21"/></li>
+              <li className="span3"><img src="https://source.unsplash.com/random/22"/></li>
+              <li className="span3"><img src="https://source.unsplash.com/random/23"/></li>
+              <li className="span3 height2"><img src="https://source.unsplash.com/random/24"/></li>
+              <li className="span3"><img src="https://source.unsplash.com/random/25"/></li>
+              <li className="span3"><img src="https://source.unsplash.com/random/26"/></li>
+              <li className="span3"><img src="https://source.unsplash.com/random/27"/></li>
+              <li className="span3 height2"><img src="https://source.unsplash.com/random/28"/></li>
+              <li className="span2 height2"><img src="https://source.unsplash.com/random/29"/></li>
+              <li className="span3"><img src="https://source.unsplash.com/random/30"/></li>
+              <li className="span3"><img src="https://source.unsplash.com/random/31"/></li>
+              <li className="span2"><img src="https://source.unsplash.com/random/32"/></li>
+              <li className="span3 height2"><img src="https://source.unsplash.com/random/33"/></li>
+              <li className="span4"><img src="https://source.unsplash.com/random/34"/></li>
               </ul>
           </div>
         </div>
       </section>
-      <div className="Scroll">This is the end !</div>
     </div>
   );
 }
