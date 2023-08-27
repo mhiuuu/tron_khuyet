@@ -1,44 +1,113 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+html {
+  color: rgb(43, 43, 43);
+  
+  margin: 10px;
+  margin: 10px;
 }
 
-.App {
-  font-family: sans-serif;
-  text-align: center;
+::-webkit-scrollbar {
+  width: 0;
+  background: transparent;
 }
 
-.Scroll {
-  height: 100vh;
-  background-color: #242424;
-  color: wheat;
-  font-size: 60px;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+#Brand {
+  font-family: 'Lobster', cursive;
+}
+
+html {
+
+}
+
+ul {
+  writing-mode: vertical-lr;
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-auto-rows: 14vh;
+  grid-auto-flow: dense;
+}
+
+li {
+  display: block;
+  overflow: hidden;
+  writing-mode: horizontal-tb;
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 2vh;
 }
 
-#horizontal {
-  height: 100vh;
-  display: flex;
-  align-items: center;
+h1 {
+  font-family: 'Modak', cursive;
+  font-size: 16vh;
+  margin-top: 3vh;
 }
 
-.horizontal__content {
-  display: flex;
-  align-items: center;
-  margin: 0 30px;
+p {
+  text-align: center;
+  font-family: 'Carter One', cursive;
+  font-size: 3.5vh;
 }
 
-.horizontal__item:not(:last-child) {
-  margin-right: 30px;
+.span2 {
+  grid-row-end: span 2;
 }
 
-.img_cont {
-  width: auto;
-  height: 70vh;
-  object-fit: cover;
-  border: 1px solid #efefef;
+.span3 {
+  grid-row-end: span 3;
+}
+
+.span4 {
+  grid-row-end: span 4;
+}
+
+.span5 {
+  grid-row-end: span 5;
+}
+
+.span6 {
+  grid-row-end: span 6;
+}
+
+.height2 {
+  grid-column-end: span 2;
+}
+
+@media (max-height:500px) {
+  ul {
+    grid-gap: 8px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-auto-rows: 18vh;
+  }
+
+  h1 {
+    font-size: 21vh;
+    margin-top: 4vh;
+  }
+
+  p {
+    font-size: 4.5vh;
+  }
+}
+
+@media (max-height:400px) {
+  ul {
+    grid-gap: 8px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-auto-rows: 22vh;
+  }
+
+  h1 {
+    font-size: 25vh;
+    margin-top: 5vh;
+  }
+
+  p {
+    font-size: 5.7vh;
+  }
 }

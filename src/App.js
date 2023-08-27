@@ -26,10 +26,6 @@ import Carousel from './Components/Home/Carousel';
 function App() {
   return(
     <div>
-      {/* The navbar */}
-      {/* <header className="sticky z-10 top-0">
-        <Header />
-      </header>  */}  
       <Carousel />
     </div>
   );

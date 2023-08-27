@@ -9,7 +9,7 @@ const WordFlick = () => {
   let forwards = true;
   let skip_count = 0;
   const skip_delay = 15;
-  const speed = 70;
+  const speed = 200;
 
   useEffect(() => {
     setInterval(() => {
@@ -50,13 +50,11 @@ const WordFlick = () => {
 const Greeting = () => {
   return (
     <section className="h-[100vh]">
-      <div className="overflow-hidden absolute z-[-1] h-screen w-full top-0 bg-blue-200 flex flex-col md:flex-row">
+      <div className="overflow-hidden absolute z-[-1] h-screen w-full bg-blue-200 flex flex-col md:flex-row">
         <div className="w-1/3 m-auto">
-          <h1 className='text-center'>Day khong chi la mot su kien</h1>
+          <h1 className='text-center text-3xl'>Day khong chi la mot su kien <span> <WordFlick /> </span> </h1>
         </div>
-        {/* <div className="w-2/3 mx-auto">
-          <Carousel />
-        </div> */}
+        
       </div>
     </section>
   );
