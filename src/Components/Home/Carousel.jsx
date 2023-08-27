@@ -46,6 +46,12 @@ export default function Carousel() {
           <li>
             <img height='874' src='https://source.unsplash.com/random/1240x874?sig=96' width='1240'/>
           </li>
+          <li>
+            <img height='874' src='https://source.unsplash.com/random/1240x874?sig=96' width='1240'/>
+          </li>
+          <li>
+            <img height='874' src='https://source.unsplash.com/random/1240x874?sig=96' width='1240'/>
+          </li>
         </ul>
       </section>
       <section class='demo-gallery'>
@@ -61,6 +67,12 @@ export default function Carousel() {
           </li>
           <li>
             <img height='874' src='https://source.unsplash.com/random/1240x874?sig=31' width='1240'/>
+          </li>
+          <li>
+            <img height='874' src='https://source.unsplash.com/random/1240x874?sig=96' width='1240'/>
+          </li>
+          <li>
+            <img height='874' src='https://source.unsplash.com/random/1240x874?sig=96' width='1240'/>
           </li>
         </ul>
       </section>
@@ -87,6 +99,12 @@ export default function Carousel() {
           </li>
           <li>
             <img height='874' src='https://source.unsplash.com/random/1240x874?sig=143' width='1240'/>
+          </li>
+          <li>
+            <img height='874' src='https://source.unsplash.com/random/1240x874?sig=96' width='1240'/>
+          </li>
+          <li>
+            <img height='874' src='https://source.unsplash.com/random/1240x874?sig=96' width='1240'/>
           </li>
         </ul>
       </section>
