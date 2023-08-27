@@ -4,27 +4,22 @@ import ScrollTrigger from "gsap/ScrollTrigger";
 
 export default function Carousel() {
   useLayoutEffect(() => {
-    const section_2 = document.getElementById("horizontal");
-    const width_box2 = document.querySelector(".container");
-    const width_box = document.querySelector(".horizontal__content");
-
     let ctx = gsap.context(() => {
       gsap.registerPlugin(ScrollTrigger);
-
-      console.log(document.documentElement.clientWidth);
-      console.log(width_box.offsetWidth);
-      console.log(width_box2.clientWidth);
-      console.log(width_box.clientWidth);
-      gsap.to(section_2, {
-        x:-width_box2.offsetWidth,
-        ease: "ease",
-        scrollTrigger: {
-          trigger: section_2,
-          pin: true,
-          scrub: 1.5,
-          end: "bottom",
-          markers: true
-        }
+      document.body.style.overflow = 'auto';
+      document.scrollingElement.scrollTo(0, 0);
+      gsap.to(document.querySelector('.loader'), { autoAlpha: 0 });
+      
+      gsap.utils.toArray('section').forEach((section, index) => {
+        const w = section.querySelector('.wrapper');
+        const [x, xEnd] = (index % 2) ? ['100%', (w.scrollWidth - section.offsetWidth) * -1] : [w.scrollWidth * -1, 0];
+        gsap.fromTo(w, {  x  }, {
+          x: xEnd,
+          scrollTrigger: { 
+            trigger: section, 
+            scrub: 0.5 
+          }
+        });
       });
     });
     return () => ctx.revert();
@@ -32,48 +27,77 @@ export default function Carousel() {
 
   return (
     <div>
-      <section id="horizontal">
-        <div className="container">
-          <div className="horizontal__content">
-            <ul className="horizontal__content">
-              <li className="span3"><img src="https://source.unsplash.com/random/1"/></li>
-              <li className="span6"><img src="https://source.unsplash.com/random/2"/></li>
-              <li className="span3"><img src="https://source.unsplash.com/random/3"/></li>
-              <li className="span5"><img src="https://source.unsplash.com/random/4"/></li>
-              <li className="span2"><img src="https://source.unsplash.com/random/5"/></li>
-              <li className="span4"><img src="https://source.unsplash.com/random/6"/></li>
-              <li className="span3"><img src="https://source.unsplash.com/random/7"/></li>
-              <li className="span3"><img src="https://source.unsplash.com/random/8"/></li>
-              <li className="span2"><img src="https://source.unsplash.com/random/9"/></li>
-              <li className="span3"><img src="https://source.unsplash.com/random/10"/></li>
-              <li className="span3"><img src="https://source.unsplash.com/random/11"/></li>
-              <li className="span3"><img src="https://source.unsplash.com/random/12"/></li>
-              <li className="span3 height2"><img src="https://source.unsplash.com/random/13"/></li>
-              <li className="span2 height2"><img src="https://source.unsplash.com/random/14"/></li>
-              <li className="span3"><img src="https://source.unsplash.com/random/15"/></li>
-              <li className="span3"><img src="https://source.unsplash.com/random/16"/></li>
-              <li className="span3 height2"><img src="https://source.unsplash.com/random/17"/></li>
-              <li className="span3"><img src="https://source.unsplash.com/random/18"/></li>
-              <li className="span3"><img src="https://source.unsplash.com/random/19"/></li>
-              <li className="span3"><img src="https://source.unsplash.com/random/20"/></li>
-              <li className="span2"><img src="https://source.unsplash.com/random/21"/></li>
-              <li className="span3"><img src="https://source.unsplash.com/random/22"/></li>
-              <li className="span3"><img src="https://source.unsplash.com/random/23"/></li>
-              <li className="span3 height2"><img src="https://source.unsplash.com/random/24"/></li>
-              <li className="span3"><img src="https://source.unsplash.com/random/25"/></li>
-              <li className="span3"><img src="https://source.unsplash.com/random/26"/></li>
-              <li className="span3"><img src="https://source.unsplash.com/random/27"/></li>
-              <li className="span3 height2"><img src="https://source.unsplash.com/random/28"/></li>
-              <li className="span2 height2"><img src="https://source.unsplash.com/random/29"/></li>
-              <li className="span3"><img src="https://source.unsplash.com/random/30"/></li>
-              <li className="span3"><img src="https://source.unsplash.com/random/31"/></li>
-              <li className="span2"><img src="https://source.unsplash.com/random/32"/></li>
-              <li className="span3 height2"><img src="https://source.unsplash.com/random/33"/></li>
-              <li className="span4"><img src="https://source.unsplash.com/random/34"/></li>
-              </ul>
-          </div>
+      <section class='demo-text'>
+        <div class='wrapper text'>
+          ABCDEFGHIJKLMNOPQRSTUVWXYZ
         </div>
       </section>
+      <section class='demo-gallery'>
+        <ul class='wrapper'>
+          <li>
+            <img height='874' src='https://source.unsplash.com/random/1240x874?sig=60' width='1240'/>
+          </li>
+          <li>
+            <img height='874' src='https://source.unsplash.com/random/1240x874?sig=175' width='1240'/>
+          </li>
+          <li>
+            <img height='874' src='https://source.unsplash.com/random/1240x874?sig=72' width='1240'/>
+          </li>
+          <li>
+            <img height='874' src='https://source.unsplash.com/random/1240x874?sig=96' width='1240'/>
+          </li>
+        </ul>
+      </section>
+      <section class='demo-gallery'>
+        <ul class='wrapper'>
+          <li>
+            <img height='874' src='https://source.unsplash.com/random/1240x874?sig=175' width='1240'/>
+          </li>
+          <li>
+            <img height='874' src='https://source.unsplash.com/random/1240x874?sig=74' width='1240'/>
+          </li>
+          <li>
+            <img height='874' src='https://source.unsplash.com/random/1240x874?sig=26' width='1240'/>
+          </li>
+          <li>
+            <img height='874' src='https://source.unsplash.com/random/1240x874?sig=31' width='1240'/>
+          </li>
+        </ul>
+      </section>
+      <section class='demo-gallery'>
+        <ul class='wrapper'>
+          <li>
+            <img height='874' src='https://source.unsplash.com/random/1240x874?sig=40' width='1240'/>
+          </li>
+          <li>
+            <img height='874' src='https://source.unsplash.com/random/1240x874?sig=92' width='1240'/>
+          </li>
+          <li>
+            <img height='874' src='https://source.unsplash.com/random/1240x874?sig=115' width='1240'/>
+          </li>
+        </ul>
+      </section>
+      <section class='demo-gallery'>
+        <ul class='wrapper'>
+          <li>
+            <img height='874' src='https://source.unsplash.com/random/1240x874?sig=7' width='1240'/>
+          </li>
+          <li>
+            <img height='874' src='https://source.unsplash.com/random/1240x874?sig=177' width='1240'/>
+          </li>
+          <li>
+            <img height='874' src='https://source.unsplash.com/random/1240x874?sig=143' width='1240'/>
+          </li>
+        </ul>
+      </section>
+      <section class='demo-text'>
+        <div class='wrapper text'>
+          ABCDEFGHIJKLMNOPQRSTUVWXYZ
+        </div>
+      </section>
+      <footer class='df aic jcc'>
+        <p>Images from <a href="https://unsplash.com/">Unsplash</a></p>
+      </footer>
     </div>
   );
 }
