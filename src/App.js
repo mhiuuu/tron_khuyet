@@ -3,8 +3,8 @@ import Header from './Components/Navbar';
 import './Styling/index.css'
 
 /*Styling for the Hero section*/
-/* import './Styling/About/Hero_text.css'
-import './Styling/About/Hero.css'  */
+import './Styling/About/Hero_text.css'
+import './Styling/About/Hero.css' 
 
 /*Styling for the home*/
 /* import './Styling/Home/Greeting.css' */
@@ -39,7 +39,7 @@ function App() {
         <section>
           <Intro />
         </section>
-
+        
         <section>
           <Stories />
         </section>

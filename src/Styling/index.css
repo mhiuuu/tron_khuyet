@@ -4,6 +4,7 @@
 
 html {
   color: rgb(43, 43, 43);
+  overscroll-behavior: none;
 }
 
 ::-webkit-scrollbar {
