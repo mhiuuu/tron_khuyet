@@ -1,7 +1,7 @@
 const Hero = () => {
   return (
     <div>
-      <section className="h-[200vh]">
+      <section className="h-[190vh]">
         <div className="hero_container container_solid top-0 bg-white">
           {/* The white box where the text animation oocur */}
           <div className="title_wrapper">

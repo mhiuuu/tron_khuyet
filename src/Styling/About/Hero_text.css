@@ -64,7 +64,6 @@
 }
 
 @media (prefers-reduced-motion) {
-
   .cool span::before,
   .cool span::after {
     -webkit-animation: none;
