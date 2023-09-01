@@ -64,7 +64,7 @@ const Gallery = () => {
   );
 }
 
-const Stories = () => {
+const Products = () => {
   return (
     <section>
       <div className="text-black py-8">
@@ -91,4 +91,4 @@ const Stories = () => {
   );
 }
 
-export default Stories;
+export default Products;

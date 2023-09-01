@@ -6,21 +6,17 @@ import './Styling/index.css'
 import './Styling/About/Hero_text.css'
 import './Styling/About/Hero.css' 
 
-/*Styling for the home*/
-/* import './Styling/Home/Greeting.css' */
-
 /* For the home section */
-import Greeting from './Components/Home/Greeting';
-import Stories from './Components/Home/Stories';
-import Products from './Components/Home/Product';
+import Hero from './Components/Home/Hero';
+import Products from './Components/Home/Products';
 import Intro from './Components//Home/Intro';
-
+import Sliders from './Components/Home/Sliders';
+import QR from './Components/Home/QR';
+import Imgs from './Components/Home/Gallery';
 /* Import other components */
-import Hero from './Components/About/Hero';
 import Quotes from './Components/About/Quotes';
 import TimeStamp from './Components/About/Timestamp';
 
-import Carousel from './Components/Home/Carousel';
 
 
 /* Generate website */
@@ -30,20 +26,24 @@ function App() {
       <header className="sticky z-10 top-0">
         <Header />
       </header>
-
-      <main> 
-        <section>
-          <Hero />
-        </section>
-
-        <section>
-          <Intro />
-        </section>
-        
-        <section>
-          <Stories />
-        </section>
-      </main>
+      {/* <section>
+        <Hero />
+      </section>
+      <section>
+        <Intro />
+      </section>
+      <section>
+        <Products />
+      </section> */}
+      <section>
+        <QR />
+      </section>
+      <section>
+        <Sliders />        
+      </section>
+      <section>
+        <Imgs />
+      </section>
     </div>
   );
 };

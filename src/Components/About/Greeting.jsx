@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import Carousel from './Carousel';
+import Carousel from '../Home/Reveal';
 const WordFlick = () => {
   const words = ['Hi i like HTML', 'I also like css', 'Lorem ipsum dolor sit amet', ' consectetur adipiscing elit', 'sed do eiusmod tempor incididunt'];
   const [part, setPart] = useState('');
