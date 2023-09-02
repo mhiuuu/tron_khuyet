@@ -17,7 +17,6 @@ export default function Sliders() {
           scrollTrigger: { 
             trigger: section, 
             scrub: 1,
-            markers: true,
           }
         });
       });

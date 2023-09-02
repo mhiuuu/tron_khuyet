@@ -1,67 +1,111 @@
-const Imgs = () => {
+const Ga = ({ img }) => {
   return (
-    <div class="columns-3 lg:columns-5 gap-x-4 mx-2.5 my-8 container mx-auto">
-      <div class="inline-block relative mb-4;">
-        <img src="https://source.unsplash.com/random/1" className="w-full rounded-xl" />
-      </div>
-      <div class="inline-block relative mb-4;">
-        <img src="https://source.unsplash.com/random/2" className="w-full rounded-xl" />
-      </div>
-      <div class="inline-block relative mb-4;">
-        <img src="https://source.unsplash.com/random/3" className="w-full rounded-xl" />
-      </div>
-      <div class="inline-block relative mb-4;">
-        <img src="https://source.unsplash.com/random/4" className="w-full rounded-xl" />
-      </div>
-      <div class="inline-block relative mb-4;">
-        <img src="https://source.unsplash.com/random/5" className="w-full rounded-xl" />
-      </div>
-      <div class="inline-block relative mb-4;">
-        <img src="https://source.unsplash.com/random/6" className="w-full rounded-xl" />
-      </div>
-      <div class="inline-block relative mb-4;">
-        <img src="https://source.unsplash.com/random/7" className="w-full rounded-xl" />
-      </div>
-      <div class="inline-block relative mb-4;">
-        <img src="https://source.unsplash.com/random/8" className="w-full rounded-xl" />
-      </div>
-      <div class="inline-block relative mb-4;">
-        <img src="https://source.unsplash.com/random/9" className="w-full rounded-xl" />
-      </div>
-      <div class="inline-block relative mb-4;">
-        <img src="https://source.unsplash.com/random/10" className="w-full rounded-xl"/>
-      </div>
-      <div class="inline-block relative mb-4;">
-        <img src="https://source.unsplash.com/random/11" className="w-full rounded-xl"/>
-      </div>
-      <div class="inline-block relative mb-4;">
-        <img src="https://source.unsplash.com/random/12" className="w-full rounded-xl"/>
-      </div>
-      <div class="inline-block relative mb-4;">
-        <img src="https://source.unsplash.com/random/19" className="w-full rounded-xl"/>
-      </div>
-      <div class="inline-block relative mb-4;">
-        <img src="https://source.unsplash.com/random/20" className="w-full rounded-xl"/>
-      </div>
-      <div class="inline-block relative mb-4;">
-        <img src="https://source.unsplash.com/random/13" className="w-full rounded-xl"/>
-      </div> <div class="inline-block relative mb-4;">
-        <img src="https://source.unsplash.com/random/14" className="w-full rounded-xl"/>
-      </div>
-      <div class="inline-block relative mb-4;">
-        <img src="https://source.unsplash.com/random/15" className="w-full rounded-xl"/>
-      </div>
-      <div class="inline-block relative mb-4;">
-        <img src="https://source.unsplash.com/random/16" className="w-full rounded-xl"/>
-      </div>
-      <div class="inline-block relative mb-4;">
-        <img src="https://source.unsplash.com/random/17" className="w-full rounded-xl"/>
-      </div>
-      <div class="inline-block relative mb-4;">
-        <img src="https://source.unsplash.com/random/18" className="w-full rounded-xl"/>
-      </div>
+    <div class="inline-block relative mb-4;">
+      <img src={img} className="w-full rounded-xl" />
     </div>
   );
-}
+};
+
+const Imgs = () => {
+  const Assets = [
+    { src:'https://drive.google.com/uc?export=view&id=1tRWtiby1Vc8YcKD9Z_yvAbEF62T7rAde' }, 
+    { src:'https://drive.google.com/uc?export=view&id=1nmzKE-Clz6RF_hE72HlcqQ5Vcye9wLiM' }, 
+    { src:'https://drive.google.com/uc?export=view&id=14znt00on6zzer8t0X0goZxMMucdWI97C' }, 
+    { src:'https://drive.google.com/uc?export=view&id=1lkvkXTeaEyVFBroWw3m4IzEVNshgKNwO' }, 
+    { src:'https://drive.google.com/uc?export=view&id=1U4yHyCfaUDkPBEm9jALAMIeW-STp1FLn' }, 
+    { src:'https://drive.google.com/uc?export=view&id=1W4NwYCF1TztAglC9uUmPI-cDHgqsp7uE' }, 
+    { src:'https://drive.google.com/uc?export=view&id=1Y9MP5AXysAem3mFFVadUo1twjhGLzm-m' }, 
+    { src:'https://drive.google.com/uc?export=view&id=1rHvBm2CppT9mdIpHnG4QuHSWvHG9FnA8' }, 
+    { src:'https://drive.google.com/uc?export=view&id=1iEfDm1LVBaR6zM1lTAksg_HfPYqJ6czQ' }, 
+    { src:'https://drive.google.com/uc?export=view&id=1mZjgC0v2okAiv24JXvceYsrgjRRYA4dj' }, 
+    { src:'https://drive.google.com/uc?export=view&id=1q2iQWeAbaJt_vqWR4M-OaMM1nFHKv7HD' }, 
+    { src:'https://drive.google.com/uc?export=view&id=1MeV5k_nrK6eMqu4PSH32trO97exMskU6' }, 
+    { src:'https://drive.google.com/uc?export=view&id=19Y6CZTAlKodZkFCH9ti1Z32d4s_NsfhR' }, 
+    { src:'https://drive.google.com/uc?export=view&id=1tG1yTblcBE7pbHH6vjRnXPZwnRUHB_CQ' }, 
+    { src:'https://drive.google.com/uc?export=view&id=1wqaBvZsqc8ZPH7-WeUonrzszDZETm36H' }, 
+    { src:'https://drive.google.com/uc?export=view&id=1Xyp0b6JvaQBSTkQAbpQn3RlNbnrkwL35' }, 
+    { src:'https://drive.google.com/uc?export=view&id=1XBeN1I6uTkcDoVX2H254sWMRC5KaZuGK' }, 
+    { src:'https://drive.google.com/uc?export=view&id=1ERfQ0fVRtXSYcOUr_pHcTJlgXNp9xHWl' }, 
+    { src:'https://drive.google.com/uc?export=view&id=1P2Ka-J84X_P_UO9J8cmPZQy75A2ENDPT' }, 
+    { src:'https://drive.google.com/uc?export=view&id=1JYDVny3GnB_074iF3Vcf-t2TtnwLDtJL' }, 
+    { src:'https://drive.google.com/uc?export=view&id=1uMdAOVMBPm3uOAdDXj4uVzOTCFPgSkJC' },
+    { src:'https://drive.google.com/uc?export=view&id=1GiuzN-1fgVBIIdxJPmWNHdwY_NajA3Iz' },
+    { src:'https://drive.google.com/uc?export=view&id=1mzw7ueWQQKMt_GNix6Xm9Gy2HBjjmLcc' },
+    { src:'https://drive.google.com/uc?export=view&id=1imD8oyGFw3uF_ShxiAzqYA5MF-cvyysx' },
+    { src:'https://drive.google.com/uc?export=view&id=1kFndnBQuuwLpgTjCW7zI7Dw0lus8jld5' },
+    { src:'https://drive.google.com/uc?export=view&id=12Lq8MQhJ7WxfJSG4Gm85d9WSotAe75oX' },
+    { src:'https://drive.google.com/uc?export=view&id=1jOK3mZ9ChLGl0B7B8I7x5nVe9PwgZ2-D' },
+    { src:'https://drive.google.com/uc?export=view&id=1wRHxPmLCJ79t8RxVgDoqoQbUSILhSMCP' },
+    { src:'https://drive.google.com/uc?export=view&id=1z8TyVtLPIH1rVp_lLMahpDDjAXZJh-Pu' },
+    { src:'https://drive.google.com/uc?export=view&id=1bDYUo6dZuD90Wl1MhFWWPdeNJ3udv0TB' },
+    { src:'https://drive.google.com/uc?export=view&id=1s2amtG2_ZRI1zuD21luglIUAtaMlGIWI' },
+    { src:'https://drive.google.com/uc?export=view&id=1FJytLcbx7VqMsuJFA1SV_plBA-hRL4Zk' },
+    { src:'https://drive.google.com/uc?export=view&id=1QV7giRglwwbdaTN6FTkmvUSduc-Zkjdu' },
+    { src:'https://drive.google.com/uc?export=view&id=1a6uJOC9lF4u2U6fE5Ap6K4jMwK9L0bz9' },
+    { src:'https://drive.google.com/uc?export=view&id=1XQ1WHpZZhFRaDY3aUQlMqEgdVfXkCbEZ' },
+    { src:'https://drive.google.com/uc?export=view&id=1bMj__i3wtqIdB6JkQzSWY8DoOcM36RmA' },
+    { src:'https://drive.google.com/uc?export=view&id=1lHqy6WWaze4WuBB2K5hsREczx4sPRTRm' },
+    { src:'https://drive.google.com/uc?export=view&id=19obPv2E9nfT6hpfMcCj8DPDkOGaYhced' },
+    { src:'https://drive.google.com/uc?export=view&id=131dOhGsP2hN2y3XRPRXAk51MAHLtMvcS' },
+    { src:'https://drive.google.com/uc?export=view&id=1cys-0lNJgmMM1TN5W8EynBBlIWJiQxC5' },
+    { src:'https://drive.google.com/uc?export=view&id=1faqsLF1HBkTgbTk6sbP7lB14Dyxt6HiA' }, 
+    { src:'https://drive.google.com/uc?export=view&id=1j8jvxjDvdwYph-_6aICzptqtcimGuBGG' }, 
+    { src:'https://drive.google.com/uc?export=view&id=12E3nok1vMZJfhx5mhw79H-imfppmja_V' }, 
+    { src:'https://drive.google.com/uc?export=view&id=1LOaJN6kt0YJ85O0qAhEqOz3puFf_yiXY' }, 
+    { src:'https://drive.google.com/uc?export=view&id=1NzahdQI_f04w0QKWQSLSKFfEHv9CT8tm' }, 
+    { src:'https://drive.google.com/uc?export=view&id=1zuv19AFSDJdg7abEKSVnzvUow6UZcX3K' }, 
+    { src:'https://drive.google.com/uc?export=view&id=1oV676eYRimCEQxBE5z88oCZfJ_Qt46ZD' }, 
+    { src:'https://drive.google.com/uc?export=view&id=1v0Mq4crOewdkKakeKNekOr7eh1QStnMb' }, 
+    { src:'https://drive.google.com/uc?export=view&id=192lKe8FfQNPxGuC3tiSovCBNkEswcXSa' }, 
+    { src:'https://drive.google.com/uc?export=view&id=1MroYmaOlBCjAiB8oFvdzs3LRxxJ3HzJ5' }, 
+    { src:'https://drive.google.com/uc?export=view&id=12WTpslm_QHDOyLyXqrUoiIANZ0Iplm_o' }, 
+    { src:'https://drive.google.com/uc?export=view&id=1P05cXtPtlyK-cpsqZELuBcLpYOPkeP_T' }, 
+    { src:'https://drive.google.com/uc?export=view&id=1j7MyJqG9lizsWwCnBhIbFPgFAQMkxdTK' }, 
+    { src:'https://drive.google.com/uc?export=view&id=1TyF_asrk6m1lfA8LufYLrjdTyJGzkkVb' }, 
+    { src:'https://drive.google.com/uc?export=view&id=1iar2DjEzukZ4Ou_m4bJarEwufcwpdmt2' }, 
+    { src:'https://drive.google.com/uc?export=view&id=1UKk6FpFBQ-HPprN8onUEtSv1wnUb40XW' },
+    { src:'https://drive.google.com/uc?export=view&id=1dYxama8TWpyOPp8TXXtlhIXXFGtvjx90' }, 
+    { src:'https://drive.google.com/uc?export=view&id=1kIUES1NoCE1G5oF9nXOeiMH1cgXu6M6i' }, 
+    { src:'https://drive.google.com/uc?export=view&id=1Rx0_1L3ZoohmemiBoC9CaaS4K4Sj2Ljf' }, 
+    { src:'https://drive.google.com/uc?export=view&id=1CW9eogtgeDs2Kl_mOtysEGPR6fwBzyJ4' }, 
+    { src:'https://drive.google.com/uc?export=view&id=1wtzETQcIO6smnzKLV75p5d75QN7vmYfW' }, 
+    { src:'https://drive.google.com/uc?export=view&id=1JVftU3lk-wuwbH4lMyt6eE_-C7g7kVjS' }, 
+    { src:'https://drive.google.com/uc?export=view&id=1E3Y31fjA3oALhnYevTbaI3HS5n5w9xXd' }, 
+    { src:'https://drive.google.com/uc?export=view&id=18faWjgiTdmoGr0_TQc-pE2Hbmc1rVQaF' }, 
+    { src:'https://drive.google.com/uc?export=view&id=1eUtOWBdNkfaAXq1XHA887lgY1I9dxxQB' }, 
+    { src:'https://drive.google.com/uc?export=view&id=1TFlewqPHQOMSigHqRO5Wuw0g_sp37feF' }, 
+    { src:'https://drive.google.com/uc?export=view&id=1lbJA2NEDYzTnaQ9Hm4kk_XfTbaX12Fgl' }, 
+    { src:'https://drive.google.com/uc?export=view&id=1IDIpiPXkrxAnILlUNYdaYdc8fkGGTEbu' }, 
+    { src:'https://drive.google.com/uc?export=view&id=1AlTtvuW2-4dLzRP8ujCU7ULcHYwC3xgO' }, 
+    { src:'https://drive.google.com/uc?export=view&id=153PjmL-EnOtdyYc-PhrLPfwmejLJk4VY' }, 
+    { src:'https://drive.google.com/uc?export=view&id=1MzWPc1YjDDzlzPcTvpCxNJAF35JXMCdS' }, 
+    { src:'https://drive.google.com/uc?export=view&id=1qOFD-EQXdJELTB29PBnTP0Gavuv0diZH' }, 
+    { src:'https://drive.google.com/uc?export=view&id=11OsYk7KZewKjYq5aNRjk4IQKzR7O7dQK' }, 
+    { src:'https://drive.google.com/uc?export=view&id=1TKSCo5kcJGfJ9b61V7LB2Pd_ax8gXwy8' }, 
+    { src:'https://drive.google.com/uc?export=view&id=1zUCaQT51kFv0K9pCCoiG3uhiCV3bc7RF' }, 
+    { src:'https://drive.google.com/uc?export=view&id=1ykfwuSOOGn_XBDlG6IY80rHtZnctyYd9' }, 
+    { src:'https://drive.google.com/uc?export=view&id=/1dPw4oVF58LO70uW3BVwL–pkSpX_kpCF' },
+    { src:'https://drive.google.com/uc?export=view&id=1BNrsMEk6Pk1iyG45KELvwnJJYXKFlxDq' }, 
+    { src:'https://drive.google.com/uc?export=view&id=1qXoVLGx0T22oDNzzd_hgt34zI9XBpTSY' },
+    { src:'https://drive.google.com/uc?export=view&id=1B_vw3VxJ7R0FalInAewTqKKLI7EOd05g' }, 
+    { src:'https://drive.google.com/uc?export=view&id=1k8DMWAJahzfMND9sV5beIebFroUrmkiY' }, 
+    { src:'https://drive.google.com/uc?export=view&id=1YMF8ZHzjmmXa4XA3dWrdOXybTFIVX2cG' }, 
+    { src:'https://drive.google.com/uc?export=view&id=1phviPezYk-tUeLKZ_OW6SLlov1Tmy6V7' }, 
+    { src:'https://drive.google.com/uc?export=view&id=1MyVFdMsjs99p964ij4cu5Bq8B6rfwgzj' }, 
+    { src:'https://drive.google.com/uc?export=view&id=1MsLuJzhCjebg-ilsFytHq6B0p89hw1Yn' }, 
+    { src:'https://drive.google.com/uc?export=view&id=1Dh3Fs6yamNXGHABglOjOmpLykth2bT96' }, 
+    { src:'https://drive.google.com/uc?export=view&id=1VrZTZzS_5QZ-ZlLC8lRCV1svmVcix7XX' }, 
+    { src:'https://drive.google.com/uc?export=view&id=10sGUZDhb0C3ItLrMfHm5dl0k4de_PALs' }, 
+    { src:'https://drive.google.com/uc?export=view&id=1vXbOxnzTMRoeNjMAUgeC0wxVAN597ET3' }, 
+    { src:'https://drive.google.com/uc?export=view&id=1zSvJIZ-S7_gZWCya94MRe2QK1CeOFFeH' },
+  ];
+  return (
+    <div class="columns-3 lg:columns-5 gap-x-4 mx-2.5 my-8 container mx-auto">
+      {Assets.map((item) => (
+        <Ga img={item.src} />
+      ))}
+    </div>
+  );
+};
 
 export default Imgs;
