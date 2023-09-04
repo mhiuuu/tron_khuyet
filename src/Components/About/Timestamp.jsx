@@ -1,6 +1,6 @@
 const Product = ({num, season, event, desc }) => {  
   /* If the num is event, make it stay on the right */
-  if(num%2==0) {
+  if(num%2===0) {
     return(
       <div className="mb-8 flex justify-between flex-row-reverse items-center w-full">
         <div className="order-1 w-5/12"></div>

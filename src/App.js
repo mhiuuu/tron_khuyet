@@ -13,11 +13,6 @@ import Intro from './Components//Home/Intro';
 import Sliders from './Components/Home/Sliders';
 import QR from './Components/Home/QR';
 import Imgs from './Components/Home/Gallery';
-/* Import other components */
-import Quotes from './Components/About/Quotes';
-import TimeStamp from './Components/About/Timestamp';
-
-
 
 /* Generate website */
 function App() {
