@@ -7,7 +7,7 @@ const QR = () => {
       </div>
 
       <div className="my-auto mx-auto">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/2/2f/Rickrolling_QR_code.png" className="w-9/12 md:w-full mx-auto"></img>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/2/2f/Rickrolling_QR_code.png" className="w-9/12 md:w-full mx-auto" alt=""></img>
       </div>
     </div>
   );

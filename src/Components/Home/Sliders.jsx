@@ -34,44 +34,44 @@ export default function Sliders() {
       <section className='sliders demo-gallery'>
         <ul className='flex'>
           <li className="shrink-0 w-[clamp(500px,60vw,800px)] pr-4">
-            <img height='874' src='https://source.unsplash.com/random/1240x874?sig=60' width='1240'/>
+            <img alt="" height='874' src='https://source.unsplash.com/random/1240x874?sig=60' width='1240'/>
           </li>
           <li className="shrink-0 w-[clamp(500px,60vw,800px)] pr-4">
-            <img height='874' src='https://source.unsplash.com/random/1240x874?sig=175' width='1240'/>
+            <img alt="" height='874' src='https://source.unsplash.com/random/1240x874?sig=175' width='1240'/>
           </li>
           <li className="shrink-0 w-[clamp(500px,60vw,800px)] pr-4">
-            <img height='874' src='https://source.unsplash.com/random/1240x874?sig=72' width='1240'/>
+            <img alt="" height='874' src='https://source.unsplash.com/random/1240x874?sig=72' width='1240'/>
           </li>
           <li className="shrink-0 w-[clamp(500px,60vw,800px)] pr-4">
-            <img height='874' src='https://source.unsplash.com/random/1240x874?sig=96' width='1240'/>
+            <img alt="" height='874' src='https://source.unsplash.com/random/1240x874?sig=96' width='1240'/>
           </li>
           <li className="shrink-0 w-[clamp(500px,60vw,800px)] pr-4">
-            <img height='874' src='https://source.unsplash.com/random/1240x874?sig=96' width='1240'/>
+            <img alt="" height='874' src='https://source.unsplash.com/random/1240x874?sig=96' width='1240'/>
           </li>
           <li className="shrink-0 w-[clamp(500px,60vw,800px)] pr-4">
-            <img height='874' src='https://source.unsplash.com/random/1240x874?sig=96' width='1240'/>
+            <img alt="" height='874' src='https://source.unsplash.com/random/1240x874?sig=96' width='1240'/>
           </li>
         </ul>
       </section>
       <section className='sliders demo-gallery'>
         <ul className='flex'>
           <li className="shrink-0 w-[clamp(500px,60vw,800px)] pr-4">
-            <img height='874' src='https://source.unsplash.com/random/1240x874?sig=175' width='1240'/>
+            <img alt="" height='874' src='https://source.unsplash.com/random/1240x874?sig=175' width='1240'/>
           </li>
           <li className="shrink-0 w-[clamp(500px,60vw,800px)] pr-4">
-            <img height='874' src='https://source.unsplash.com/random/1240x874?sig=74' width='1240'/>
+            <img alt="" height='874' src='https://source.unsplash.com/random/1240x874?sig=74' width='1240'/>
           </li>
           <li className="shrink-0 w-[clamp(500px,60vw,800px)] pr-4">
-            <img height='874' src='https://source.unsplash.com/random/1240x874?sig=26' width='1240'/>
+            <img alt="" height='874' src='https://source.unsplash.com/random/1240x874?sig=26' width='1240'/>
           </li>
           <li className="shrink-0 w-[clamp(500px,60vw,800px)] pr-4">
-            <img height='874' src='https://source.unsplash.com/random/1240x874?sig=31' width='1240'/>
+            <img alt="" height='874' src='https://source.unsplash.com/random/1240x874?sig=31' width='1240'/>
           </li>
           <li className="shrink-0 w-[clamp(500px,60vw,800px)] pr-4">
-            <img height='874' src='https://source.unsplash.com/random/1240x874?sig=96' width='1240'/>
+            <img alt="" height='874' src='https://source.unsplash.com/random/1240x874?sig=96' width='1240'/>
           </li>
           <li className="shrink-0 w-[clamp(500px,60vw,800px)] pr-4">
-            <img height='874' src='https://source.unsplash.com/random/1240x874?sig=96' width='1240'/>
+            <img alt="" height='874' src='https://source.unsplash.com/random/1240x874?sig=96' width='1240'/>
           </li>
         </ul>
       </section>

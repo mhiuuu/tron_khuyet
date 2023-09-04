@@ -2,7 +2,7 @@ const Ga = ({ img }) => {
   const randomHeight = Math.floor(Math.random() * 500) + 300;
   return (
     <div class="inline-block relative my-[4px]">
-      <img src={img} className="w-full rounded-xl" style={{ height: randomHeight, objectFit: 'cover' }} />
+      <img src={img} className="w-full rounded-xl" style={{ height: randomHeight, objectFit: 'cover' }} alt=""/>
     </div>
   );
 };
