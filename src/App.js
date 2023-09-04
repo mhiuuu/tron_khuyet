@@ -26,7 +26,7 @@ function App() {
       <header className="sticky z-10 top-0">
         <Header />
       </header>
-      {/* <section>
+      <section>
         <Hero />
       </section>
       <section>
@@ -34,7 +34,7 @@ function App() {
       </section>
       <section>
         <Products />
-      </section> */}
+      </section>
       <section>
         <QR />
       </section>

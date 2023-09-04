@@ -28,56 +28,56 @@ export default function Sliders() {
     <div className="overflow-hidden">
       <section className='sliders demo-text'>
         <div className='flex text'>
-          ABCDEFGHIJKLMNOPQRSTUVWXYZ
+          THEUPPROJECT
         </div>
       </section>
       <section className='sliders demo-gallery'>
         <ul className='flex'>
-          <li>
+          <li className="shrink-0 w-[clamp(500px,60vw,800px)] pr-4">
             <img height='874' src='https://source.unsplash.com/random/1240x874?sig=60' width='1240'/>
           </li>
-          <li>
+          <li className="shrink-0 w-[clamp(500px,60vw,800px)] pr-4">
             <img height='874' src='https://source.unsplash.com/random/1240x874?sig=175' width='1240'/>
           </li>
-          <li>
+          <li className="shrink-0 w-[clamp(500px,60vw,800px)] pr-4">
             <img height='874' src='https://source.unsplash.com/random/1240x874?sig=72' width='1240'/>
           </li>
-          <li>
+          <li className="shrink-0 w-[clamp(500px,60vw,800px)] pr-4">
             <img height='874' src='https://source.unsplash.com/random/1240x874?sig=96' width='1240'/>
           </li>
-          <li>
+          <li className="shrink-0 w-[clamp(500px,60vw,800px)] pr-4">
             <img height='874' src='https://source.unsplash.com/random/1240x874?sig=96' width='1240'/>
           </li>
-          <li>
+          <li className="shrink-0 w-[clamp(500px,60vw,800px)] pr-4">
             <img height='874' src='https://source.unsplash.com/random/1240x874?sig=96' width='1240'/>
           </li>
         </ul>
       </section>
       <section className='sliders demo-gallery'>
         <ul className='flex'>
-          <li>
+          <li className="shrink-0 w-[clamp(500px,60vw,800px)] pr-4">
             <img height='874' src='https://source.unsplash.com/random/1240x874?sig=175' width='1240'/>
           </li>
-          <li>
+          <li className="shrink-0 w-[clamp(500px,60vw,800px)] pr-4">
             <img height='874' src='https://source.unsplash.com/random/1240x874?sig=74' width='1240'/>
           </li>
-          <li>
+          <li className="shrink-0 w-[clamp(500px,60vw,800px)] pr-4">
             <img height='874' src='https://source.unsplash.com/random/1240x874?sig=26' width='1240'/>
           </li>
-          <li>
+          <li className="shrink-0 w-[clamp(500px,60vw,800px)] pr-4">
             <img height='874' src='https://source.unsplash.com/random/1240x874?sig=31' width='1240'/>
           </li>
-          <li>
+          <li className="shrink-0 w-[clamp(500px,60vw,800px)] pr-4">
             <img height='874' src='https://source.unsplash.com/random/1240x874?sig=96' width='1240'/>
           </li>
-          <li>
+          <li className="shrink-0 w-[clamp(500px,60vw,800px)] pr-4">
             <img height='874' src='https://source.unsplash.com/random/1240x874?sig=96' width='1240'/>
           </li>
         </ul>
       </section>
       <section className='sliders demo-text'>
         <div className='flex text'>
-          ABCDEFGHIJKLMNOPQRSTUVWXYZ
+          THEUPPROJECT
         </div>
       </section>
     </div>

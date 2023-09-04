@@ -2,7 +2,7 @@ const Hero = () => {
   return (
     <div>
       <section className="h-[190vh]">
-        <div className="hero_container container_solid top-0 bg-white">
+        <div className="hero_container container_solid top-0 bg-[url(https://verentas.sirv.com/backdrop.png)] bg-no-repeat bg-cover backdrop-filter backdrop-blur">
           {/* The white box where the text animation oocur */}
           <div className="title_wrapper">
             <h1 className="cool">

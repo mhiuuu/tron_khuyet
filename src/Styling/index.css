@@ -32,12 +32,6 @@ body {
   list-style: none;
 }
 
-li {
-  flex-shrink: 0;
-  width: clamp(500px, 60vw, 800px);
-  padding-right: 1rem;
-}
-
 .demo-gallery:not(.last) {
   padding-bottom: 1rem;
 }
