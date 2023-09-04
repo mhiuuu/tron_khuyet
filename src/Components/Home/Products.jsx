@@ -53,9 +53,6 @@ const Products = () => {
             <p className="text-sm md:text-base text-black mb-12">
               Bỷe bủh bủuh lmao hihi haha fỏk u kikiki 
             </p>
-            <a href="#"
-              className="bg-transparent mr-auto hover:bg-yellow-300 text-black hover:text-black rounded shadow hover:shadow-lg py-2 px-4 border border-yellow-300 hover:border-transparent">
-              Explore Now</a>
           </div>
 
           <div>

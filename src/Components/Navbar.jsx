@@ -11,7 +11,7 @@ const Header = () => {
         <div className="items-center justify-between hidden w-full md:flex md:w-auto md:order-1">
           <ul className="flex font-medium p-4 md:p-0 mt-4 border rounded-lg md:flex-row md:space-x-8 md:mt-0 md:border-0">
             <li>
-              <a href="#" className="block py-2 pl-3 pr-4 text-black font-bold bg-transparent rounded text-xl" aria-current="page">Stories</a>
+              <a className="block py-2 pl-3 pr-4 text-black font-bold bg-transparent rounded text-xl" aria-current="page">Stories</a>
             </li>
           </ul>
         </div>
