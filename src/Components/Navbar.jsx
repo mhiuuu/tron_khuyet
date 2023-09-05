@@ -4,7 +4,7 @@ const Header = () => {
   return (
     <nav class="backdrop-filter backdrop-blur h-16 font-semibold text-lg after:absolute after:inset-x-0 after:w-full after:h-12 after:shadow-hr after:z-[-1]">
       <div className="flex flex-wrap items-center justify-between mx-auto p-4">
-        <a href="#" className="flex items-center">
+        <a className="flex items-center">
           <span className="self-center text-2xl font-semibold whitespace-nowrap" id="Brand">The Up Project</span>
         </a>
 
