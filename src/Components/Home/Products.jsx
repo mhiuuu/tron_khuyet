@@ -39,17 +39,17 @@ const Products = () => {
   return (
     <section>
       <div className="text-black py-8">
-        <div className="container mx-auto flex flex-col items-start md:flex-row my-12 md:my-24">
+        <div className="container  flex flex-col items-start md:flex-row my-12 md:my-24">
           {/* The static part */}
-          <div className="flex flex-col w-full sticky md:top-36 lg:w-1/2 mt-2 md:mt-12 px-16 lg:px-36">
-            <p className="text-3xl md:text-4xl mb-2">Các sản phẩm</p>
-            <p className="text-sm md:text-base text-black my-12">
-              Bỷe bủh bủuh lmao hihi haha fỏk u kikiki 
+          <div className="flex flex-col w-full sticky md:top-36 lg:w-1/2 mt-2 md:mt-12 px-24 lg:px-48">
+            <p className="text-4xl md:text-5xl mb-2">Các sản phẩm</p>
+            <p className="text-black my-12">
+              Đã bao giờ bạn nghĩ rằng những cậu bé, cô bé mang trong mình những khiếm khuyết trên cơ thể lại có thể tạo ra những sản phẩm tinh sảo đến vậy?
             </p>
           </div>
 
           <div>
-            <div class="columns-2 lg:columns-3 gap-x-4 mx-2.5 my-0;">
+            <div class="columns-2 lg:columns-3 gap-x-4 my-0;">
               {Assets.map((item) => (
                 <Ga img={item.src} />
               ))}
@@ -57,7 +57,7 @@ const Products = () => {
           </div>
         </div>
       </div>
-    </section> 
+    </section>
   );
 }
 

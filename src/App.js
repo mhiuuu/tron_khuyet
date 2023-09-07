@@ -13,6 +13,7 @@ import Intro from './Components//Home/Intro';
 import Sliders from './Components/Home/Sliders';
 import QR from './Components/Home/QR';
 import Imgs from './Components/Home/Gallery';
+import Footer from './Components/Footer';
 
 /* Generate website */
 function App() {
@@ -39,6 +40,10 @@ function App() {
       <section>
         <Imgs />
       </section>
+
+      <footer>
+        <Footer />
+      </footer>
     </div>
   );
 };

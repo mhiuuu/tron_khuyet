@@ -2,8 +2,8 @@ const QR = () => {
   return (
     <div className="container mx-auto h-fit md:h-[50vh] flex flex-col md:flex-row border-2 rounded-2xl my-16">
       <div className="basis-1/2 my-auto mx-auto">
-        <h1>For some safety reason, we won't sell these products, however, you can donate to this charity or contact with them through</h1>
-        <p className="mt-8">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dicta iste commodi molestiae, quo ad quam rem, iure voluptatum aliquid magni consequatur eos officia odit voluptatem, itaque necessitatibus architecto quod nostrum?</p>
+        <h1>Vì  lí do an toàn, chúng  mình sẽ không nhận đặt hộ hay nhận hỗ trợ hộ trung tâm, nếu bạn quan tâm thì có thể ủng hộ trung tâm qua mã QR sau hoặc liên hệ lại với chúng mình</h1>
+        <p className="mt-8"></p>
       </div>
 
       <div className="my-auto mx-auto">
