@@ -2,6 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url('https://fonts.googleapis.com/css2?family=Livvic:wght@600&display=swap');
+
 html {
   color: rgb(43, 43, 43);
   overscroll-behavior: none;
@@ -20,6 +22,9 @@ html {
 
 body {
   overflow: hidden;
+}
+#Brand {
+  font-family: 'Livvic', sans-serif;
 }
 
 .sliders ul {

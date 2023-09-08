@@ -14,7 +14,7 @@ const Hero = () => {
         {/* Where the magic happens */}
         <div className="hero_container bg-[url(https://verentas.sirv.com/IMG_1453.JPG)] bg-[100vw_auto] bg-center bg-fixed bg-cover top-[100vh] bg-no-repeat" aria-hidden="true">
           <div className="title_wrapper">
-            <h1 className="text-white cool">Trọn Khuyết</h1>
+            <h1 className="text-gray-100 cool">Trọn Khuyết</h1>
           </div>
         </div>
       </section> 
