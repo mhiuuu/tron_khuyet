@@ -1,8 +1,8 @@
 const Ga = ({ img }) => {
-  const randomHeight = Math.floor(Math.random() * 500) + 300;
+  const randomHeight = Math.floor(Math.random() * 500) + 400;
   return (
     <div class="inline-block relative my-[4px]">
-      <img src={img} className="w-full rounded-xl" style={{ height: randomHeight, objectFit: 'cover' }} alt=""/>
+      <img src={img} className="rounded-xl" style={{ height: randomHeight, objectFit: 'cover', width: '100%' }} alt=""/>
     </div>
   );
 };
@@ -13,9 +13,6 @@ const Products = () => {
     {src:'https://verentas.sirv.com/UPPD/Copy%20of%20DSC05799.JPG'},
     {src:'https://verentas.sirv.com/UPPD/Copy%20of%20DSC05873.JPG'},
     {src:'https://verentas.sirv.com/UPPD/Copy%20of%20DSC05880.JPG'},
-    {src:'https://verentas.sirv.com/UPPD/DSC07502.JPG'},
-    {src:'https://verentas.sirv.com/UPPD/DSC07503.JPG'},
-    {src:'https://verentas.sirv.com/UPPD/DSC07504.JPG'},
     {src:'https://verentas.sirv.com/UPPD/DSC07505.JPG'},
     {src:'https://verentas.sirv.com/UPPD/DSC07506.JPG'},
     {src:'https://verentas.sirv.com/UPPD/IMG_1281.JPG'},
@@ -25,12 +22,10 @@ const Products = () => {
     {src:'https://verentas.sirv.com/UPPD/IMG_1465.JPG'},
     {src:'https://verentas.sirv.com/UPPD/IMG_1469.JPG'},
     {src:'https://verentas.sirv.com/UPPD/IMG_1470.JPG'},
-    {src:'https://verentas.sirv.com/UPPD/IMG_1472.JPG'},
     {src:'https://verentas.sirv.com/UPPD/IMG_1473.JPG'},
     {src:'https://verentas.sirv.com/UPPD/IMG_1475.JPG'},
     {src:'https://verentas.sirv.com/UPPD/IMG_1477.JPG'},
     {src:'https://verentas.sirv.com/UPPD/IMG_2916.JPG'},
-    {src:'https://verentas.sirv.com/UPPD/IMG_2925.JPG'},
     {src:'https://verentas.sirv.com/UPPD/IMG_3015.JPG'},
     {src:'https://verentas.sirv.com/UPPD/IMG_3025.JPG'},
     {src:'https://verentas.sirv.com/UPPD/IMG_3036.JPG'},
@@ -49,7 +44,7 @@ const Products = () => {
           </div>
 
           <div>
-            <div class="columns-2 lg:columns-3 gap-x-4 my-0;">
+            <div class="columns-1 lg:columns-2 gap-x-4 my-0 mx-4 md:mx-auto">
               {Assets.map((item) => (
                 <Ga img={item.src} />
               ))}

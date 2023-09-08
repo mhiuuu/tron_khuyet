@@ -3,8 +3,8 @@ import Header from './Components/Navbar';
 import './Styling/index.css'
 
 /*Styling for the Hero section*/
-import './Styling/About/Hero_text.css'
-import './Styling/About/Hero.css' 
+import './Styling/Hero_text.css'
+import './Styling/Hero.css' 
 
 /* For the home section */
 import Hero from './Components/Home/Hero';
