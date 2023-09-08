@@ -2,7 +2,7 @@ const Hero = () => {
   return (
     <div>
       <section className="h-[190vh]">
-        <div className="hero_container container_solid top-0 bg-white bg-no-repeat bg-cover backdrop-filter backdrop-blur">
+        <div className="hero_container container_solid top-0 bg-white bg-no-repeat bg-cover">
           {/* The white box where the text animation oocur */}
           <div className="title_wrapper">
             <h1 className="cool">
@@ -12,10 +12,10 @@ const Hero = () => {
           </div>
         </div>
         {/* Where the magic happens */}
-        <div className="hero_container bg-[url(https://verentas.sirv.com/IMG_1453.JPG)] bg-[100vw_auto] bg-center bg-fixed bg-cover top-[100vh] bg-no-repeat" aria-hidden="true">
-          <div className="title_wrapper">
-            <h1 className="text-gray-100 cool">Trọn Khuyết</h1>
-          </div>
+        <div className="hero_container bg-[url(https://verentas.sirv.com/IMG_1453.JPG)] bg-[100vw_auto] bg-center bg-fixed bg-cover backdrop-blur backdrop-filter top-[100vh] bg-no-repeat" aria-hidden="true">
+          {/* <div className="title_wrapper">
+            <h1 className="text-black cool">Trọn Khuyết</h1>
+          </div> */}
         </div>
       </section> 
   </div>

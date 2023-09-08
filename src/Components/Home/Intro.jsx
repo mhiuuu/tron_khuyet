@@ -58,11 +58,11 @@ const Intro = () => {
       heading: 'MỈM CƯỜI TRƯỚC NGHỊCH CẢNH',
       stories: 'Một cuộc đời nhỏ với những khiếm khuyết trên cơ thể, việc giao tiếp đối với em là vô cùng khó khăn. Tuy nhiên, tình thần lạc quan đã khiến em mỉm cười với nghịch cảnh, cũng bởi vậy mà tên em là Cười. Chỉ cần có niềm tin vào cuộc sống, nuôi dưỡng hy vọng, may mắn sẽ đến sưởi ấm những trái tim đổ vỡ, xoa dịu và chữa lành. ',
     },
-    {
+    /*  {
       img: 'https://verentas.sirv.com/IMG_8139.JPG', 
       heading: 'MỈM CƯỜI TRƯỚC NGHỊCH CẢNH',
       stories: 'Một cuộc đời nhỏ với những khiếm khuyết trên cơ thể, việc giao tiếp đối với em là vô cùng khó khăn. Tuy nhiên, tình thần lạc quan đã khiến em mỉm cười với nghịch cảnh, cũng bởi vậy mà tên em là Cười. Chỉ cần có niềm tin vào cuộc sống, nuôi dưỡng hy vọng, may mắn sẽ đến sưởi ấm những trái tim đổ vỡ, xoa dịu và chữa lành. ',
-    },
+    }, */
   ]
 
   return (
