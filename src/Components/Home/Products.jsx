@@ -37,7 +37,7 @@ const Products = () => {
           <div className="flex flex-col w-full sticky md:top-36 lg:w-1/2 mt-2 md:mt-12 px-24 lg:px-48">
             <p className="text-4xl md:text-5xl mb-2">Các sản phẩm</p>
             <p className="text-black my-12">
-              Đã bao giờ bạn nghĩ rằng những cậu bé, cô bé mang trong mình những khiếm khuyết trên cơ thể lại có thể tạo ra những sản phẩm tinh sảo đến vậy?
+              Đã bao giờ bạn nghĩ rằng những cậu bé, cô bé mang trong mình những khiếm khuyết trên cơ thể lại có thể tạo ra những sản phẩm tinh xảo đến vậy?
             </p>
           </div>
 

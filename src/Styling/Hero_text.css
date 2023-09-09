@@ -9,7 +9,8 @@
 }
 
 .cool {
-  font: 10rem sans-serif;
+  font: 11rem sans-serif;
+  font-weight: bold;
   font-family: 'Prata', serif;
 }
 .cool span {
