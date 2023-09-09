@@ -46,7 +46,7 @@ const Intro = () => {
     {
       img: 'https://verentas.sirv.com/IMG_9877.jpg', 
       heading: 'HỌA SĨ CỦA NHỮNG GIẤC MƠ',
-      stories: 'Khai phá niềm đam mê vẽ vời vào năm 18 tuổi, bạn Bình An, một người khiếm thính, luôn đặt mọi tâm huyết trên trang giấy. Để nâng tầm khả năng ký họa của mình, An luôn theo dõi và cập nhật những bộ phim, tạp chí, cuốn truyện hằng ngày. Dù cho bản thân gặp khiếm khuyết, ngọn lửa đam mê vẫn bừng cháy, thôi thúc An nhiệt huyết trên con đường nghệ thuật.',
+      stories: 'Khai phá niềm đam mê vẽ vào năm 18 tuổi, bạn Bình An, một người khiếm thính, luôn đặt mọi tâm huyết trên trang giấy. Để nâng tầm khả năng ký họa của mình, An luôn theo dõi và cập nhật những bộ phim, tạp chí, cuốn truyện hằng ngày. Dù cho bản thân gặp khiếm khuyết, ngọn lửa đam mê vẫn bừng cháy, thôi thúc An nhiệt huyết trên con đường nghệ thuật.',
     },
     {
       img: 'https://verentas.sirv.com/1.jpg', 
